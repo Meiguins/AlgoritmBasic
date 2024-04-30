@@ -1,6 +1,4 @@
-public class App {
-
-    public class BubbleSort {
+public class Bubble {
         // Método para ordenar um array usando Bubble Sort
     public static void bubbleSort(int[] array) {
         int n = array.length;
@@ -35,6 +33,5 @@ public class App {
         
         System.out.println("Array depois da ordenação:");
         printArray(array);
-        }
     }
 }
